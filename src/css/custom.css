@@ -6,25 +6,122 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #1903bf;
+  --ifm-color-primary-dark: #1603ac;
+  --ifm-color-primary-darker: #1503a2;
+  --ifm-color-primary-darkest: #110286;
+  --ifm-color-primary-light: #1b03d2;
+  --ifm-color-primary-lighter: #1d03dc;
+  --ifm-color-primary-lightest: #2004f8;
+  /*Custom Component Color*/
+  --ifm-navbar-background-color:rgba(250, 250, 250, 1);
+  --background-base:60vW;
+  --background-color:rgba(25, 3, 191, 0.8);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #42f2ff;
+  --ifm-color-primary-dark: #22f0ff;
+  --ifm-color-primary-darker: #12efff;
+  --ifm-color-primary-darkest: #00d1e1;
+  --ifm-color-primary-light: #62f4ff;
+  --ifm-color-primary-lighter: #72f5ff;
+  --ifm-color-primary-lightest: #a2f9ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /*Custom Component Color*/
+  --ifm-navbar-background-color:rgba(0, 0, 0, 1);
+  --background-color:rgba(66, 242, 255, 0.8);
+}
+
+/* Index Page Hero Banner */
+.hero.hero--primary{
+  height: calc(100vh - 60px);
+  /* background: linear-gradient(180deg, #000000 0%, #0B0D71 100%); */
+  background-color: var(--ifm-navbar-background-color);
+  /* background: linear-gradient(90deg, #764ba2 0%, #667eea 100%); */
+}
+
+.hero__title{
+  color: var(--ifm-color-content);
+}
+.hero__title_span{
+  color: var(--ifm-color-primary);
+}
+.hero__subtitle{
+  color: var(--ifm-color-content);
+}
+
+.hero.hero--primary .container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+}
+.hero.hero--primary *{
+  margin-right: auto;
+}
+@media screen and (max-width: 996px){
+  
+  .hero.hero--primary .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .hero.hero--primary .container *{
+    font-size: 2rem;
+    text-align: left;
+  }
+  .hero.hero--primary .container .hero__subtitle{
+    font-size: 1rem;
+  }
+  .button.button--secondary.button--lg,.hero__subtitle{
+    font-size: 1rem;
+  }
+  .hero.hero--primary.heroBanner_qdFl{
+    padding: 1rem;
+  }
+}
+/* Index Page Navbar */
+.themedComponent--dark_xIcU {
+  content: url('/img/logo-dark.svg');
+}
+
+.navbar--fixed-top,.navbar-sidebar__brand{
+  /* -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);  */
+  box-shadow: None; 
+} 
+/* Background */
+.background-circle {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.background-circle:nth-child(1) {
+  width: var(--background-base);
+  height: var(--background-base);
+  top: 70%;
+  left: 50%;
+  background: var(--background-color);
+}
+
+.background-circle:nth-child(2) {
+  width: var(--background-base);
+  height: var(--background-base);
+  top: 30%;
+  right: -30%;
+  background: var(--background-color);
+}
+
+@media screen and (max-width: 996px){
+  .background-circle:nth-child(1) {
+    top: 80%;
+    left: 50%;
+  }
+  
+  .background-circle:nth-child(2) {
+    top: 75%;
+    right: -30%;
+  }
 }

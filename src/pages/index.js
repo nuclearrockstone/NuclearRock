@@ -10,19 +10,30 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
+    
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        <div class="background-circle"></div>
+        <div class="background-circle"></div>
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          Hi! I'm <span className="hero__title_span">nuclearrockstone</span>
         </Heading>
+        {/* <Heading as="h1" className="hero__title">
+          This is {siteConfig.title}
+        </Heading> */}
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Go
           </Link>
-        </div>
+        </div> */}
+        <p align="center">
+          <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=python,vscode,html,css,notion,markdown&theme=light" />
+          </a>
+        </p>
       </div>
     </header>
   );
@@ -35,9 +46,9 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
+      {/* <main>
         <HomepageFeatures />
-      </main>
+      </main> */}
     </Layout>
   );
 }
