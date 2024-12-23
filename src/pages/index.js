@@ -12,9 +12,10 @@ function HomepageHeader() {
   return (
     
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div class="background-circle"></div>
+      <div class="background-circle"></div>
       <div className="container">
-        <div class="background-circle"></div>
-        <div class="background-circle"></div>
+        
         <Heading as="h1" className="hero__title">
           Hi! I'm <span className="hero__title_span">nuclearrockstone</span>
         </Heading>
@@ -31,7 +32,7 @@ function HomepageHeader() {
         </div> */}
         <p align="center">
           <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=python,vscode,html,css,notion,markdown&theme=light" />
+          <img className="techstack" src="https://skillicons.dev/icons?i=python,vscode,html,css,notion,markdown&theme=light" />
           </a>
         </p>
       </div>
