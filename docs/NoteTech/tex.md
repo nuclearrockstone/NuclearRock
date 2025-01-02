@@ -1,7 +1,6 @@
 ---
 title: Tex公式基础
 description: Tex的入门编写指南
-hide_table_of_contents: true
 ---
 
 # 基本语法

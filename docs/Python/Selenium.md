@@ -1,10 +1,10 @@
 ---
 title: Selenium
 description: Selenium入门指南
-hide_table_of_contents: true
+toc_min_heading_level: 2
 ---
 
-# Selenium
+## Selenium
 
 Tags: pyModule
 
@@ -14,7 +14,7 @@ Tags: pyModule
 
 Selenium的WebDriver驱动浏览器原生的Driver Driver再驱动浏览器
 
-# 安装环境
+## 安装环境
 
 - 安装WebDriver：下载对应浏览器的WebDriver，并添加到系统环境变量
 - 安装Selenium：`pip install selenium`
@@ -28,7 +28,7 @@ Selenium的WebDriver驱动浏览器原生的Driver Driver再驱动浏览器
     VS Code会在弹出后自动结束脚本，可以在命令行中进行测试
     
 
-# 浏览器驱动
+## 浏览器驱动
 
 开始会话
 
@@ -54,7 +54,7 @@ driver.get("url")
 driver.title
 ```
 
-# 定位器
+## 定位器
 
 ```jsx
 from selenium.webdriver.common.by import By
@@ -71,7 +71,7 @@ driver.find_element(locator,value)
 | CSS | find_element(by=By.CSS_SELECTOR, value=‘’) |
 | ID | find_element([by=By.ID](http://by=by.id/), value=‘’) |
 
-# 交互
+## 交互
 
 ```jsx
 from selenium.webdriver.common.action_chains import ActionChains
