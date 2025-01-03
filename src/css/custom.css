@@ -6,17 +6,17 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #1903bf;
-  --ifm-color-primary-dark: #1603ac;
-  --ifm-color-primary-darker: #1503a2;
-  --ifm-color-primary-darkest: #110286;
-  --ifm-color-primary-light: #1b03d2;
-  --ifm-color-primary-lighter: #1d03dc;
-  --ifm-color-primary-lightest: #2004f8;
+  --ifm-color-primary: #1e57b3;
+  --ifm-color-primary-dark: #1b4ea1;
+  --ifm-color-primary-darker: #1a4a98;
+  --ifm-color-primary-darkest: #153d7d;
+  --ifm-color-primary-light: #2160c5;
+  --ifm-color-primary-lighter: #2364ce;
+  --ifm-color-primary-lightest: #3374dd;
   /*Custom Component Color*/
   --ifm-navbar-background-color:rgba(250, 250, 250, 1);
   --background-base:60vW;
-  --background-color:rgba(25, 3, 191, 0.8);
+  --background-color:rgba(30, 87, 179, 0.8);
   --techstack-url:url("https://skillicons.dev/icons?i=python,vscode,html,css,notion,markdown&theme=light")
 }
 
