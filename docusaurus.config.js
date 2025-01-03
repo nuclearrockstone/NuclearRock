@@ -10,8 +10,8 @@ import rehypeKatex from 'rehype-katex';
 
 const base_url = String(process.env.BASE_URL);
 
-/* console.log("Type: " + typeof base_url);  // 打印变量类型
-console.log("Value: " + base_url);  */
+console.log("Type: " + typeof process.env.BASE_URL);  // 打印变量类型
+console.log("Value: " + base_url); 
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -25,7 +25,7 @@ const config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl:'/',
+  baseUrl:base_url,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
