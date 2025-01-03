@@ -18,7 +18,7 @@ function HomepageHeader() {
       <div className="container">
         
         <Heading as="h1" className="hero__title">
-          <Translate>Hi! I'm</Translate><span class="i18n_space">&nbsp;</span>
+          <Translate>Hi!</Translate><span>&nbsp;</span><span class="responsive-break"><br/></span><Translate>I'm</Translate><span class="i18n_space">&nbsp;</span>
           <span className="hero__title_span"><Translate>nuclearrockstone</Translate></span>
         </Heading>
         {/* <Heading as="h1" className="hero__title">

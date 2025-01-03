@@ -148,3 +148,14 @@
 :lang(en-GB) .i18n_space {
   display: inline;
 }
+
+.responsive-break {
+  display: none;
+}
+
+@media (max-width: 996px) {
+  .responsive-break {
+    display: block;
+    height:1rem;
+  }
+}
