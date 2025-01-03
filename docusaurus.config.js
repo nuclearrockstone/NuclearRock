@@ -96,10 +96,21 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'dropdown',
             position: 'left',
             label: 'Archive',
+            items:[
+              {
+                type: 'docSidebar',
+                sidebarId: 'tutorialSidebar',
+                label: 'Tutorial',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'pythonSidebar',
+                label: 'Python',
+              },
+            ]
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           /* {
