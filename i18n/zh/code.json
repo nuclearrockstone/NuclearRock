@@ -311,9 +311,12 @@
     "description": "The title of the tag list page"
   },
   "nuclearrockstone": {
-    "message": "nuclearrockstone"
+    "message": "核动力岩石"
   },
   "Hi! I'm": {
-    "message": "Hi! I'm"
+    "message": "哈喽! 我是"
+  },
+  "Here is my space on Internet": {
+    "message": "这是我在互联网上的空间"
   }
 }

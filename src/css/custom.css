@@ -141,7 +141,7 @@
 
 /* 默认情况下隐藏空格 */
 .i18n_space {
-  display: inline;
+  display: none;
 }
 
 /* 当页面语言为 en 时显示空格 */
