@@ -311,9 +311,9 @@
     "description": "The title of the tag list page"
   },
   "nuclearrockstone": {
-    "message": "核岩石"
+    "message": "nuclearrockstone"
   },
   "Hi! I'm": {
-    "message": "哈喽! 我是"
+    "message": "哈喽! 这是"
   }
 }
