@@ -138,3 +138,13 @@
 .techstack{
     content: var(--techstack-url);
 }
+
+/* 默认情况下隐藏空格 */
+.i18n_space {
+  display: none;
+}
+
+/* 当页面语言为 en 时显示空格 */
+:lang(en-GB) .i18n_space {
+  display: inline;
+}

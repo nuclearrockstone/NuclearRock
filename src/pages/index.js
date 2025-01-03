@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import Translate from '@docusaurus/Translate';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -17,7 +18,8 @@ function HomepageHeader() {
       <div className="container">
         
         <Heading as="h1" className="hero__title">
-          Hi! I'm <span className="hero__title_span">nuclearrockstone</span>
+          <Translate>Hi! I'm</Translate><span class="i18n_space">&nbsp;</span>
+          <span className="hero__title_span"><Translate>nuclearrockstone</Translate></span>
         </Heading>
         {/* <Heading as="h1" className="hero__title">
           This is {siteConfig.title}

@@ -35,14 +35,13 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en','zh-Hans'],
+    locales: ['en','zh'],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',
       },
       // 如果不需要重写默认值，可以忽略 locale (例如 fr)
-      'zh-Hans': {
-        direction: 'rtl',
+      'zh': {
       },
     },
   },
@@ -113,6 +112,10 @@ const config = {
             ]
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'left',
+          },
           /* {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
