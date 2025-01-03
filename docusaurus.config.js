@@ -101,8 +101,8 @@ const config = {
             items:[
               {
                 type: 'docSidebar',
-                sidebarId: 'tutorialSidebar',
-                label: 'Tutorial',
+                sidebarId: 'docusaurusSidebar',
+                label: 'Docusaurus',
               },
               {
                 type: 'docSidebar',
