@@ -11,6 +11,9 @@ jobs:
   build:
     name: 构建 Docusaurus
     runs-on: ubuntu-latest
+    env:
+      BASE_URL: '/NuclearBomb/'
+      
     steps:
       - uses: actions/checkout@v4
         with:
