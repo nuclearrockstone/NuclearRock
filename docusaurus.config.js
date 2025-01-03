@@ -141,6 +141,12 @@ const config = {
         crossorigin: 'anonymous',
       },
     ],
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+  
 };
 
 export default config;
