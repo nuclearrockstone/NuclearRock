@@ -1,12 +1,12 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+nuclearrockstone:
+  name: nuclearrockstone
+  title: Rookie
+  url: https://github.com/nuclearrockstone
+  image_url: https://github.com/nuclearrockstone.png
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    github: nuclearrockstone
+
 
 slorber:
   name: Sébastien Lorber
