@@ -7,20 +7,20 @@
     "message": "My Site Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Archive": {
+  "item.label.文章": {
     "message": "文章",
-    "description": "Navbar item with label Archive"
+    "description": "Navbar item with label 文章"
   },
-  "item.label.Blog": {
-    "message": "博客",
-    "description": "Navbar item with label Blog"
+  "item.label.多库龙": {
+    "message": "多库龙",
+    "description": "Navbar item with label 多库龙"
   },
   "item.label.Python": {
     "message": "Python",
     "description": "Navbar item with label Python"
   },
-  "item.label.Docusaurus": {
-    "message": "多库龙",
-    "description": "Navbar item with label Docusaurus"
+  "item.label.博客": {
+    "message": "博客",
+    "description": "Navbar item with label 博客"
   }
 }

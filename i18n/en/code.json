@@ -1,16 +1,4 @@
 {
-  "Hi!": {
-    "message": "Hi!"
-  },
-  "I'm": {
-    "message": "I'm"
-  },
-  "nuclearrockstone": {
-    "message": "nuclearrockstone"
-  },
-  "Here is my space on Internet": {
-    "message": "Here is my space on Internet"
-  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
@@ -321,5 +309,17 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "哈喽!": {
+    "message": "Hi!"
+  },
+  "我是": {
+    "message": "I'm"
+  },
+  "核动力岩石": {
+    "message": "nuclearrockstone"
+  },
+  "这是我在互联网上的空间": {
+    "message": "Here is my space on Internet"
   }
 }

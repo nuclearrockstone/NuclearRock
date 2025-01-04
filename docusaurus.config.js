@@ -97,12 +97,12 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
-            label: 'Archive',
+            label: '文章',
             items:[
               {
                 type: 'docSidebar',
                 sidebarId: 'docusaurusSidebar',
-                label: 'Docusaurus',
+                label: '多库龙',
               },
               {
                 type: 'docSidebar',
@@ -111,7 +111,7 @@ const config = {
               },
             ]
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'left',

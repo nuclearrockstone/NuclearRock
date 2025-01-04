@@ -18,13 +18,13 @@ function HomepageHeader() {
       <div className="container">
         
         <Heading as="h1" className="hero__title">
-          <Translate>Hi!</Translate><span>&nbsp;</span><span class="responsive-break"><br/></span><Translate>I'm</Translate><span class="i18n_space">&nbsp;</span>
-          <span className="hero__title_span"><Translate>nuclearrockstone</Translate></span>
+          <Translate>哈喽!</Translate><span>&nbsp;</span><span class="responsive-break"><br/></span><Translate>我是</Translate><span class="i18n_space">&nbsp;</span>
+          <span className="hero__title_span"><Translate>核动力岩石</Translate></span>
         </Heading>
         {/* <Heading as="h1" className="hero__title">
           This is {siteConfig.title}
         </Heading> */}
-        <p className="hero__subtitle"><Translate>Here is my space on Internet</Translate></p>
+        <p className="hero__subtitle"><Translate>这是我在互联网上的空间</Translate></p>
         {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

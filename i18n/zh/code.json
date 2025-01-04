@@ -310,16 +310,16 @@
     "message": "标签",
     "description": "The title of the tag list page"
   },
-  "nuclearrockstone": {
-    "message": "核动力岩石"
-  },
-  "Here is my space on Internet": {
-    "message": "这是我在互联网上的空间"
-  },
-  "Hi!": {
+  "哈喽!": {
     "message": "哈喽!"
   },
-  "I'm": {
+  "我是": {
     "message": "我是"
+  },
+  "核动力岩石": {
+    "message": "核动力岩石"
+  },
+  "这是我在互联网上的空间": {
+    "message": "这是我在互联网上的空间"
   }
 }
