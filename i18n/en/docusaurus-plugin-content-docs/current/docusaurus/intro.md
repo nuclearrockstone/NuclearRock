@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 教程初步
+# i8n_Current
 
 让我们在五分钟内发现 **Docusaurus in less than 5 minutes**.
 
