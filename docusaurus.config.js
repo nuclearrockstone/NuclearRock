@@ -83,7 +83,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/social_card.jpg',
+      image: 'img/social_card.svg',
       navbar: {
         title: 'NUCLEAR BOMB',
         logo: {
