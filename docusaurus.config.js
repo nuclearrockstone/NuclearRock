@@ -128,6 +128,9 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      metadata: [
+        {name: 'description', content: 'nuclearrockstone personal site'},
+      ],
     }),
   stylesheets: [
       {
@@ -139,6 +142,7 @@ const config = {
       },
     ],
 
+  
   markdown: {
     mermaid: true,
   },
