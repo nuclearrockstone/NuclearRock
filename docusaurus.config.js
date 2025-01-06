@@ -17,7 +17,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: process.env.PRODUCT_URL || 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl:process.env.BASE_URL || '/',
@@ -130,6 +130,7 @@ const config = {
       },
       metadata: [
         {name: 'description', content: 'nuclearrockstone personal site'},
+        {property: 'og:description', content: 'nuclearrockstone personal site'},
       ],
     }),
   stylesheets: [

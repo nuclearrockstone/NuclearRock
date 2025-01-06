@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_URL: '/NuclearBomb/'
+      PRODUCT_URL: 'https://nuclearrockstone.github.io/'
       
     steps:
       - uses: actions/checkout@v4
