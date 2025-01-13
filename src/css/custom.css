@@ -147,10 +147,21 @@
   display: none;
 }
 
+.i18n-break {
+  display: none;
+}
+
 @media (max-width: 996px) {
   .responsive-break {
     display: block;
     height:1rem;
+  }
+  :lang(en-GB) .i18n-break {
+    display: block;
+    height:1rem;
+  }
+  :lang(en-GB) .responsive-break {
+    display: none;
   }
 }
 
@@ -160,6 +171,3 @@
   }
 }
 
-:lang(en-GB) .head_container {
-  padding: 0;
-}
