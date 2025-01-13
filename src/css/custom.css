@@ -117,14 +117,8 @@
 }
 
 @media screen and (max-width: 996px){
-  .background-circle:nth-child(1) {
-    top: 80%;
-    left: 50%;
-  }
-  
-  .background-circle:nth-child(2) {
-    top: 75%;
-    right: -30%;
+  .background-circle {
+    display: none;
   }
 }
 
@@ -157,5 +151,11 @@
   .responsive-break {
     display: block;
     height:1rem;
+  }
+}
+
+@media (max-width: 996px) {
+  .navbar__logo {
+    display: none;
   }
 }

@@ -12,7 +12,7 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Nuclear Bomb',
+  title: 'Nuclear Rock',
   tagline: 'Here is my space on Internet',
   favicon: 'img/favicon.ico',
 
@@ -25,7 +25,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nuclearrockstone', // Usually your GitHub org/user name.
-  projectName: 'NuclearBomb', // Usually your repo name.
+  projectName: 'NuclearRock', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -85,7 +85,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/social_card.svg',
       navbar: {
-        title: 'NUCLEAR BOMB',
+        title: 'NUCLEAR ROCK',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',

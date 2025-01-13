@@ -12,7 +12,7 @@ jobs:
     name: 构建 Docusaurus
     runs-on: ubuntu-latest
     env:
-      BASE_URL: '/NuclearBomb/'
+      BASE_URL: '/NuclearRock/'
       PRODUCT_URL: 'https://nuclearrockstone.github.io/'
       
     steps:
