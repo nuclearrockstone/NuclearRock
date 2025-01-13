@@ -15,6 +15,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div class="background-circle"></div>
       <div class="background-circle"></div>
+      <div class="background-circle-mobile"></div>
       <div className="container head_container">
         
         <Heading as="h1" className="hero__title">

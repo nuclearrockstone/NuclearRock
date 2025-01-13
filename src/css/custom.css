@@ -116,6 +116,22 @@
   background: var(--background-color);
 }
 
+.background-circle-mobile {
+  position: absolute;
+  border-radius: 50% / 100% 100% 0 0;
+  z-index: 0;
+  width: 120vw;
+  height: 30vw;
+  bottom: -17vw;
+  right: -10vw;
+  background: var(--background-color);
+}
+
+@media screen and (min-width: 996px){
+  .background-circle-mobile {
+    display:none
+  }
+}
 @media screen and (max-width: 996px){
   .background-circle {
     display: none;
