@@ -159,3 +159,7 @@
     display: none;
   }
 }
+
+:lang(en-GB) .head_container {
+  padding: 0;
+}
