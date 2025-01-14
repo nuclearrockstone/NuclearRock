@@ -90,11 +90,16 @@
   content: url('/img/logo-dark.svg');
 }
 
-.navbar_homepage,.navbar-sidebar__brand{
+.navbar-sidebar__brand{
   /* -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);  */
   box-shadow: None; 
 } 
+
+html[class="plugin-pages plugin-id-default"] .navbar--fixed-top {
+  /* 指定的样式 */
+  box-shadow: None;
+}
 /* Background */
 .background-circle {
   position: absolute;

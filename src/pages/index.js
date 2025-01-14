@@ -46,31 +46,9 @@ function HomepageHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
-  useEffect(() => {
-    // 定义处理逻辑的函数
-    const updateNavbar = () => {
-      // 获取页面中类名为 'navbar navbar--fixed-top' 的元素
-      const navbarElement = document.querySelector('.navbar.navbar--fixed-top');
-      if (navbarElement) {
-        // 为该元素添加类名 'navbar_homepage'
-        navbarElement.classList.add('navbar_homepage');
-      }
-    };
-
-    // 在页面首次加载时运行
-    updateNavbar();
-
-    // 在每次点击时运行
-    document.addEventListener('click', updateNavbar);
-
-    // 清理事件监听器，防止内存泄漏
-    return () => {
-      document.removeEventListener('click', updateNavbar);
-    };
-  }, []); // 空数组确保只在组件挂载和卸载时执行一次
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}>
+      title={`Hello from ${siteConfig.title}`}>      
       <HomepageHeader />
       {/* <main>
         <HomepageFeatures />
