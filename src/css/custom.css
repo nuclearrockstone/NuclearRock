@@ -189,3 +189,7 @@
   }
 } */
 
+.navbar__toggle.clean-btn{
+  position: absolute;
+  right: 2%;
+}
