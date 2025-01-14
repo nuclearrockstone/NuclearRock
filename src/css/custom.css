@@ -15,6 +15,7 @@
   --ifm-color-primary-lightest: #3374dd;
   /*Custom Component Color*/
   --ifm-navbar-background-color:rgba(250, 250, 250, 1);
+  --ifm-background-color:var(--ifm-navbar-background-color);
   --background-base:60vW;
   --background-color:rgba(30, 87, 179, 0.8);
   --techstack-url:url("https://skillicons.dev/icons?i=python,vscode,html,css,notion,markdown&theme=light")
@@ -32,13 +33,14 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   /*Custom Component Color*/
   --ifm-navbar-background-color:rgba(0, 0, 0, 1);
+  --ifm-background-color:var(--ifm-navbar-background-color);
   --background-color:rgba(66, 242, 255, 0.8);
   --techstack-url:url("https://skillicons.dev/icons?i=python,vscode,html,css,notion,markdown&theme=dark")
 }
 
 /* Index Page Hero Banner */
 .hero.hero--primary{
-  height: calc(100vh - 60px);
+  height: calc(100svh - 60px);
   /* background: linear-gradient(180deg, #000000 0%, #0B0D71 100%); */
   background-color: var(--ifm-navbar-background-color);
   /* background: linear-gradient(90deg, #764ba2 0%, #667eea 100%); */
@@ -181,9 +183,9 @@
   }
 }
 
-@media (max-width: 996px) {
+/* @media (max-width: 996px) {
   .navbar__logo {
     display: none;
   }
-}
+} */
 
