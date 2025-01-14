@@ -90,7 +90,7 @@
   content: url('/img/logo-dark.svg');
 }
 
-.navbar--fixed-top,.navbar-sidebar__brand{
+.navbar_homepage,.navbar-sidebar__brand{
   /* -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);  */
   box-shadow: None; 
