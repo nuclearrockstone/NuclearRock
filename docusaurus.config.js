@@ -98,13 +98,8 @@ const config = {
             items:[
               {
                 type: 'docSidebar',
-                sidebarId: 'docusaurusSidebar',
-                label: '多库龙',
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'pythonSidebar',
-                label: 'Python',
+                sidebarId: 'programSidebar',
+                label: '编程',
               },
             ]
           },

@@ -7,17 +7,13 @@
     "message": "My Site Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Python": {
-    "message": "Python",
-    "description": "Navbar item with label Python"
-  },
   "item.label.文章": {
     "message": "Archive",
     "description": "Navbar item with label 文章"
   },
-  "item.label.多库龙": {
-    "message": "Docusaurus",
-    "description": "Navbar item with label 多库龙"
+  "item.label.编程": {
+    "message": "Programing",
+    "description": "Navbar item with label 编程"
   },
   "item.label.博客": {
     "message": "Blog",

@@ -11,16 +11,12 @@
     "message": "文章",
     "description": "Navbar item with label 文章"
   },
-  "item.label.多库龙": {
-    "message": "多库龙",
-    "description": "Navbar item with label 多库龙"
-  },
-  "item.label.Python": {
-    "message": "Python",
-    "description": "Navbar item with label Python"
-  },
   "item.label.博客": {
     "message": "博客",
     "description": "Navbar item with label 博客"
+  },
+  "item.label.编程": {
+    "message": "编程",
+    "description": "Navbar item with label 编程"
   }
 }
