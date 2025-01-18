@@ -8,7 +8,7 @@
     "description": "The label for category docusaurus in sidebar programSidebar"
   },
   "sidebar.programSidebar.category.python": {
-    "message": "python",
+    "message": "Python",
     "description": "The label for category python in sidebar programSidebar"
   }
 }
