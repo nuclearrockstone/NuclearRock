@@ -17,7 +17,7 @@
   --ifm-navbar-background-color:rgb(255, 255, 255);
   --ifm-background-color:var(--ifm-navbar-background-color);
   --background-base:60vW;
-  --background-color:rgba(30, 87, 179, 0.8);
+  --background-color:rgba(30, 87, 179, 0.9);
   --techstack-url:url("https://skillicons.dev/icons?i=python,vscode,html,css,notion,markdown&theme=light")
 }
 
@@ -131,7 +131,7 @@ html[class="plugin-pages plugin-id-default"] .navbar--fixed-top {
   height: 30vw;
   bottom: -17vw;
   right: -10vw;
-  background: var(--background-color);
+  background: var(--ifm-color-primary);
 }
 
 @media screen and (min-width: 996px){
