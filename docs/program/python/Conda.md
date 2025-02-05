@@ -1,7 +1,7 @@
 ---
 title: Conda
 description: 使用Conda进行Python包管理
-toc_min_heading_level: 3
+toc_min_heading_level: 2
 ---
 ![Anaconda_banner](https://image.nuclearrockstone.xyz/2025/02/Anaconda_banner2.png)
 
