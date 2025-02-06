@@ -28,6 +28,7 @@ toc_min_heading_level: 2
 
 ## 使用
 
+### 虚拟环境管理
 **创建虚拟环境**
 ```powershell
 conda create -n env_name
@@ -44,7 +45,7 @@ conda create -n env_name
     ```powershell
     conda config --add create_default_packages python
     ```
-**在WindowsTerminal中使用AnacondaPromt**
+### 在WindowsTerminal中使用AnacondaPromt
 
 在```WindowsTerminal配置文件```中添加配置
 ```json title="PowershellPromt"
@@ -66,3 +67,15 @@ conda create -n env_name
     "name": "miniconda3"
 }
 ```
+### 解决conda base环境与之前安装的python环境冲突的问题
+**问题描述**
+
+如果你在安装conda之前已经安装了python，安装conda并添加环境变量后，即使不使用Anacondapromt，使用默认的Powershell和CMD，在命令行中调用python和pip，调用的为conda base环境中的python，这是因为在miniconda的路径下，既有conda程序，也有python和pip程序，因此覆盖了原有python的环境变量路径
+>以我为例，在安装conda之前，已经在原有的python中进行了长时间的开发，因此已经在原有的python环境下安装了很多包，在使用conda后，试图使用```pip list```命令查看包的安装情况时遂发现此问题，此时在vscode等仍能识别的原有的python环境，但再向这个环境中使用```pip```安装包就显得很困难
+
+**解决方案**
+
+在环境变量中提高原有python路径的优先级，再系统变量中将原有的python路径置于conda路径之上
+:::note
+正常情况下Windows的环境变量应该是系统变量大于用户变量的，但貌似Path是系统变量有限的，因为我原先Pyhton安装时添加的环境变量是添加在用户变量中的。。。。
+:::
