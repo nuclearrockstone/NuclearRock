@@ -101,6 +101,11 @@ const config = {
                 sidebarId: 'programSidebar',
                 label: '编程',
               },
+              {
+                type: 'docSidebar',
+                sidebarId: 'cloudSidebar',
+                label: '云服务',
+              },
             ]
           },
           {to: '/blog', label: '博客', position: 'left'},

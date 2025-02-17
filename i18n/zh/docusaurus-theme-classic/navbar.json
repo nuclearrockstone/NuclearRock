@@ -18,5 +18,9 @@
   "item.label.编程": {
     "message": "编程",
     "description": "Navbar item with label 编程"
+  },
+  "item.label.云服务": {
+    "message": "云服务",
+    "description": "Navbar item with label 云服务"
   }
 }

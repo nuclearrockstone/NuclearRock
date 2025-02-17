@@ -18,5 +18,9 @@
   "item.label.博客": {
     "message": "Blog",
     "description": "Navbar item with label 博客"
+  },
+  "item.label.云服务": {
+    "message": "Cloud Service",
+    "description": "Navbar item with label 云服务"
   }
 }
