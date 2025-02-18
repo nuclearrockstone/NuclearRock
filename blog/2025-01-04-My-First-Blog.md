@@ -1,7 +1,6 @@
 ---
 slug: 第一篇博文
 title: 第一篇博文
-authors: nuclearrockstone
 tags: [hello, docusaurus]
 ---
 这是我的第一篇博文

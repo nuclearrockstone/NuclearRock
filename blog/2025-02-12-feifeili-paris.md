@@ -1,7 +1,6 @@
 ---
 slug: 李飞飞演讲
 title: 李飞飞在巴黎AI峰会上的演讲
-authors: nuclearrockstone
 tags: [hello, docusaurus]
 ---
 

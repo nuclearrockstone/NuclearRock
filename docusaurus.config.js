@@ -66,6 +66,8 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           // Please change this to your repo.
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
