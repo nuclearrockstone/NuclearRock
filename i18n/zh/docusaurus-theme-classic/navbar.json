@@ -22,5 +22,9 @@
   "item.label.云服务": {
     "message": "云服务",
     "description": "Navbar item with label 云服务"
+  },
+  "item.label.关于": {
+    "message": "关于",
+    "description": "Navbar item with label 关于"
   }
 }

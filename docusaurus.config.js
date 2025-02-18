@@ -111,6 +111,7 @@ const config = {
             ]
           },
           {to: '/blog', label: '博客', position: 'left'},
+          {label:'关于',href:'https://www.nuclearrockstone.xyz/'},
           {
             type: 'localeDropdown',
             position: 'left',
