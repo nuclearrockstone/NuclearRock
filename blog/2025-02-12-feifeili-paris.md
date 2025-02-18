@@ -2,6 +2,7 @@
 slug: 李飞飞演讲
 title: 李飞飞在巴黎AI峰会上的演讲
 tags: [hello, docusaurus]
+image: ./img/blog_social_card.jpg
 ---
 
 听了李飞飞在巴黎AI峰会上的演讲，记录一下有感觉的地方
