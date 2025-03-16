@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+FixBug:
+  label: FixBug
+  permalink: /FixBug
+  description: All the trick you need to fix a bug
