@@ -49,11 +49,11 @@ Workflow可以设置为使用多种触发器，包括：
     [Bookmark](https://console.cron-job.org/dashboard)
 
 
-- URL:https://api.github.com/repos/AtomRockStone/AUTO_GET_TJULIB_STUID_INFO/actions/workflows/python-app.yml/dispatches
+- URL:https://api.github.com/repos/AtomRockStone/reponame/actions/workflows/action.yml/dispatches
 
 - Load:
 
-![58d997fcf842](/img/58d997fcf842)
+![5879cd27277e](/img/5879cd27277e)
 
 
 
