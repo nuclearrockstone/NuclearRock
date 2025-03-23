@@ -18,6 +18,12 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v2
 
+            - name: Delete contents of specified directory
+              run: |
+                rm -rf docs/note/*
+                rm -rf docs/static/img/*
+                rm -rf blog/*.md
+
             - name: Set up Python
               uses: actions/setup-python@v2
               with:
