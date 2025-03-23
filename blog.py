@@ -5,7 +5,7 @@ from n2m import NotionExporter
 
 class DocusaurusPostGenerator:
     def __init__(self, token, database_id, output_dir="blog"):
-        self.notion_exporter = NotionExporter(token, database_id)
+        self.notion_exporter = NotionExporter(token, database_id, image_save_path="blog/static/img")
         self.output_dir = output_dir
         os.makedirs(self.output_dir, exist_ok=True)
 
@@ -35,7 +35,7 @@ class DocusaurusPostGenerator:
                 f.write(post_content)
 
 if __name__ == "__main__":
-    token = "secret_bzU0VnZVrxW9gNiuPlUOILmShIzx3qQA2DTZkmRl8QY"
-    database_id = "1be72ff5207880abb0fede962a4dae1b"
+    token = os.getenv("NOTION_TOKEN")
+    database_id = os.getenv("BLOG_DATABASE_ID")
     generator = DocusaurusPostGenerator(token, database_id)
     generator.generate_posts()

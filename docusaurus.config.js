@@ -16,7 +16,7 @@ const config = {
   tagline: 'Here is my space on Internet',
   favicon: 'img/favicon.ico',
 
-  staticDirectories: ['docs/static', 'static'],
+  staticDirectories: ['docs/static', 'static','blog/static'],
   // Set the production url of your site here
   url: process.env.PRODUCT_URL || 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served

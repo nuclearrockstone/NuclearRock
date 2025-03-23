@@ -3,8 +3,8 @@ import os
 import shutil
 
 # 配置 Notion API 令牌和数据库 ID
-NOTION_TOKEN = "secret_bzU0VnZVrxW9gNiuPlUOILmShIzx3qQA2DTZkmRl8QY"
-DATABASE_ID = "e9d90291ecbb485f8f262469023b9d58"
+NOTION_TOKEN = os.getenv("NOTION_TOKEN")
+DATABASE_ID = os.getenv("NOTE_DATABASE_ID")
 
 # 初始化 NotionExporter
 exporter = NotionExporter(NOTION_TOKEN, DATABASE_ID,image_save_path="docs/static/img")
