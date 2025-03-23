@@ -16,6 +16,7 @@ const config = {
   tagline: 'Here is my space on Internet',
   favicon: 'img/favicon.ico',
 
+  staticDirectories: ['docs/static', 'static'],
   // Set the production url of your site here
   url: process.env.PRODUCT_URL || 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -94,6 +95,12 @@ const config = {
         },
         items: [
           {
+            type: 'docSidebar',
+            sidebarId: 'noteSidebar',
+            position: 'left',
+            label: '笔记',
+          },
+          /* {
             type: 'dropdown',
             position: 'left',
             label: '文章',
@@ -109,7 +116,7 @@ const config = {
                 label: '云服务',
               },
             ]
-          },
+          }, */
           {to: '/blog', label: '博客', position: 'left'},
           {label:'关于',href:'https://www.nuclearrockstone.xyz/'},
           {

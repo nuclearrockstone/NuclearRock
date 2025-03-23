@@ -7,24 +7,16 @@
     "message": "My Site Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.文章": {
-    "message": "文章",
-    "description": "Navbar item with label 文章"
-  },
   "item.label.博客": {
     "message": "博客",
     "description": "Navbar item with label 博客"
   },
-  "item.label.编程": {
-    "message": "编程",
-    "description": "Navbar item with label 编程"
-  },
-  "item.label.云服务": {
-    "message": "云服务",
-    "description": "Navbar item with label 云服务"
-  },
   "item.label.关于": {
     "message": "关于",
     "description": "Navbar item with label 关于"
+  },
+  "item.label.笔记": {
+    "message": "笔记",
+    "description": "Navbar item with label 笔记"
   }
 }

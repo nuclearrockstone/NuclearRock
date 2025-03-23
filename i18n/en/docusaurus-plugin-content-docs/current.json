@@ -10,5 +10,17 @@
   "sidebar.programSidebar.category.python": {
     "message": "Python",
     "description": "The label for category python in sidebar programSidebar"
+  },
+  "sidebar.noteSidebar.category.Cloud": {
+    "message": "Cloud",
+    "description": "The label for category Cloud in sidebar noteSidebar"
+  },
+  "sidebar.noteSidebar.category.Python": {
+    "message": "Python",
+    "description": "The label for category Python in sidebar noteSidebar"
+  },
+  "sidebar.noteSidebar.category.Tool": {
+    "message": "Tool",
+    "description": "The label for category Tool in sidebar noteSidebar"
   }
 }

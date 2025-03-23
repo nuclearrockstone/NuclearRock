@@ -1,62 +1,53 @@
----
-title: Selenium
-description: Selenium入门指南
-toc_min_heading_level: 2
----
+# Selenium
 
-## Selenium
+[Bookmark](https://www.selenium.dev/)
 
-Tags: pyModule
-
-[Selenium](https://www.selenium.dev/)
-
-![Selenium的WebDriver驱动浏览器原生的Driver Driver再驱动浏览器](https://www.selenium.dev/images/documentation/webdriver/basic_comms.png)
-
-Selenium的WebDriver驱动浏览器原生的Driver Driver再驱动浏览器
+![cd8a3cc3ca7f](/img/cd8a3cc3ca7f)
 
 ## 安装环境
 
 - 安装WebDriver：下载对应浏览器的WebDriver，并添加到系统环境变量
+
 - 安装Selenium：`pip install selenium`
+
 - 测试脚本：弹出浏览器界面即为安装成功
-    
-    ```jsx
+    ```javascript
     from selenium import webdriver
     driver = webdriver.Chrome()
     ```
-    
+
     VS Code会在弹出后自动结束脚本，可以在命令行中进行测试
-    
+
 
 ## 浏览器驱动
 
 开始会话
 
-```jsx
+```javascript
 driver = webdriver.Chrome()
 ```
 
 结束会话
 
-```jsx
+```javascript
 driver.quit()
 ```
 
 打开网页
 
-```jsx
+```javascript
 driver.get("url")
 ```
 
 获取网页信息
 
-```jsx
+```javascript
 driver.title
 ```
 
 ## 定位器
 
-```jsx
+```javascript
 from selenium.webdriver.common.by import By
 driver.find_element(locator,value)
 ```
@@ -69,11 +60,14 @@ driver.find_element(locator,value)
 | PARTIAL_LINK_TEXT | find_element(by=By.PARTIAL_LINK_TEXT, value=‘’) |
 | TAG | find_element(by=By.TAG_NAME, value=‘’) |
 | CSS | find_element(by=By.CSS_SELECTOR, value=‘’) |
-| ID | find_element([by=By.ID](http://by=by.id/), value=‘’) |
+| ID | find_element(by=By.ID, value=‘’) |
 
 ## 交互
 
-```jsx
+```javascript
 from selenium.webdriver.common.action_chains import ActionChains
 element.sent_keys()
 ```
+
+
+
