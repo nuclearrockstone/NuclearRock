@@ -78,6 +78,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-30TKDG6DLD',   // 填写衡量 ID
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
