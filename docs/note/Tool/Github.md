@@ -53,7 +53,7 @@ Workflow可以设置为使用多种触发器，包括：
 
 - Load:
 
-![b65aeda053db](/img/b65aeda053db)
+![b8664c839308](/img/b8664c839308)
 
 
 
