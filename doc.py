@@ -26,10 +26,10 @@ for page in pages:
             title = "".join([t.get("plain_text", "") for t in properties["Name"]["title"]])
         md_content = exporter.page_to_markdown(page)
         file_path = os.path.join(export_dir, f"{title}.md")
-        category = "Uncategorized"
+        category = ""
         if "Category" in properties and properties["Category"]["select"]:
             category = properties["Category"]["select"]["name"]
-        category_dir = os.path.join(export_dir, category)
+        category_dir = os.path.join(export_dir, category) if category else export_dir
         os.makedirs(category_dir, exist_ok=True)
         file_path = os.path.join(category_dir, f"{title}.md")
         with open(file_path, "w", encoding="utf-8") as md_file:
