@@ -1,3 +1,7 @@
+---
+title: Github
+---
+
 # Github
 
 ## Workflow与GithubAction
@@ -53,7 +57,7 @@ Workflow可以设置为使用多种触发器，包括：
 
 - Load:
 
-![ca8d44369038](/img/ca8d44369038)
+![2cf75c6458b9](/img/2cf75c6458b9)
 
 
 

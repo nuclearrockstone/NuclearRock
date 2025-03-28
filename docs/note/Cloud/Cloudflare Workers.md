@@ -1,3 +1,7 @@
+---
+title: Cloudflare Workers
+---
+
 # Cloudflare Workers
 
 :::note 🔖
