@@ -24,7 +24,16 @@ for page in pages:
         title = "Untitled"
         if "Name" in properties and properties["Name"]["title"]:
             title = "".join([t.get("plain_text", "") for t in properties["Name"]["title"]])
-        md_content = exporter.page_to_markdown(page)
+        sidebar_position = properties.get("sidebar_position", {}).get("number", None)
+        front_matter = {
+            "title": title,
+            "sidebar_position": sidebar_position
+        }
+        md_content = "---\n"
+        for key, value in front_matter.items():
+            if value is not None:
+                md_content += f"{key}: {value}\n"
+        md_content += "---\n\n" + exporter.page_to_markdown(page)
         file_path = os.path.join(export_dir, f"{title}.md")
         category = ""
         if "Category" in properties and properties["Category"]["select"]:
