@@ -18,7 +18,7 @@ title: Requests
     <details>
     <summary>相关页面</summary>
 
-        [Bookmark](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)
+        [Untitled Bookmark](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)
 
     </details>
 
@@ -35,7 +35,7 @@ title: Requests
 
 **Requests**是一个Python库，用于处理HTTP请求，解决了手动处理的繁琐过程，Response类用于存储HTTP请求返回的结果
 
-[Bookmark](https://docs.python-requests.org/en/latest/index.html#)
+[官方文档](https://docs.python-requests.org/en/latest/index.html#)
 
 HTTP请求共有9种，使用到的主要方法有如下几种：
 
@@ -45,7 +45,7 @@ HTTP请求共有9种，使用到的主要方法有如下几种：
 
 使用`httpbin.org`可以模拟发起上述请求，并测试上述请求
 
-[Bookmark](https://httpbin.org/)
+[Untitled Bookmark](https://httpbin.org/)
 
 ## GET请求
 
