@@ -1,3 +1,7 @@
+---
+title: JSON
+---
+
 # JSON
 
 ```javascript

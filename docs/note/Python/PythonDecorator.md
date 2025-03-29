@@ -1,3 +1,7 @@
+---
+title: PythonDecorator
+---
+
 # PythonDecorator
 
 ## 装饰器
