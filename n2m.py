@@ -111,7 +111,8 @@ class NotionExporter:
             md += prefix + f"```{language}\n{indented_code_text}\n" + prefix + "```\n\n"
         elif block_type == "bookmark":
             url_text = content.get("url", "")
-            md += prefix + f"[Bookmark]({url_text})\n\n"
+            caption = self.rich_text_to_markdown(content.get("caption", [])) or "Untitled Bookmark"
+            md += prefix + f"[{caption}]({url_text})\n\n"
         elif block_type == "equation":
             expression = content.get("expression", "")
             md += prefix + f"$$ {expression} $$\n\n"
