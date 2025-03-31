@@ -92,7 +92,7 @@ conda create -n env_name
 
 在环境变量中提高原有python路径的优先级，再系统变量中将原有的python路径置于conda路径之上
 
-:::note 💡
+:::note 
 
 正常情况下Windows的环境变量应该是系统变量大于用户变量的，但貌似Path是系统变量有限的，因为我原先Pyhton安装时添加的环境变量是添加在用户变量中的。。。。
 

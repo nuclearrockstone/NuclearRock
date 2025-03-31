@@ -76,7 +76,7 @@ OpenSSH目前为Windows的可选功能，需要用户手动安装
 pip install jupyterlab
 ```
 
-:::note 💡
+:::note 
 
 需要安装Node.js，否则有可能提示错误❌
 
@@ -89,7 +89,7 @@ pip install jupyterlab
 jupyter [Application] #[lab,notebook,server]
 ```
 
-:::note 💡
+:::note 
 
 此时Jupyter仅能在本地访问
 

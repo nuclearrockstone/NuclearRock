@@ -4,7 +4,7 @@ title: Requests
 
 # Requests
 
-:::note 💡
+:::note 
 
 **Tips**
 
