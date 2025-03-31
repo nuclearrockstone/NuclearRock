@@ -4,7 +4,7 @@ title: SCPI
 
 # SCPI
 
-**SCPI是Standard Command for Programmable Instruments（可编程仪器标准指令）的简称，**是在IEEE-488（通用接口总线）上定义的一种通信规范，可以用于自动测试设备和电子测试设备
+**SCPI是Standard Command for Programmable Instruments（可编程仪器标准指令）的简称**，是在IEEE-488（通用接口总线）上定义的一种通信规范，可以用于自动测试设备和电子测试设备
 
 > 本次实践基于胜利仪器VC4091C进行，主要使用Python操作串口进行了命令的手法，实现了对数据的读取和实时显示，未尽之处，尚待补充
 
