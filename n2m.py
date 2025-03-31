@@ -140,9 +140,8 @@ class NotionExporter:
             title = block.get("child_page", {}).get("title", "Untitled")
             md += prefix + f"# {title}\n\n"
         elif block_type == "callout":
-            icon = content.get("icon", {}).get("emoji", "")
             rich_text = self.rich_text_to_markdown(content.get("rich_text", []))
-            md += prefix + f":::note {icon}\n\n{rich_text}\n\n"
+            md += prefix + f":::note \n\n{rich_text}\n\n"
             if block.get("has_children"):
                 children = self.retrieve_block_children(block["id"])
                 for child in children:
