@@ -50,14 +50,14 @@ Workflow可以设置为使用多种触发器，包括：
 - **workflow_dispatch：**手动触发，在仓库的Actions选项卡下面选择相应的工作流文件手动触发
 
 - **remote_triger：**使用HTTP的POST请求定时模拟手动触发工作流
-    [Bookmark](https://console.cron-job.org/dashboard)
+    [Untitled Bookmark](https://console.cron-job.org/dashboard)
 
 
 - URL:https://api.github.com/repos/AtomRockStone/reponame/actions/workflows/action.yml/dispatches
 
 - Load:
 
-![2cf75c6458b9](/img/2cf75c6458b9)
+![91d3b7983198](/img/91d3b7983198)
 
 
 

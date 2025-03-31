@@ -4,7 +4,7 @@ title: Selenium
 
 # Selenium
 
-[Bookmark](https://www.selenium.dev/)
+[Salenium文档](https://www.selenium.dev/)
 
 ![cd8a3cc3ca7f](/img/cd8a3cc3ca7f)
 
